@@ -1,19 +1,12 @@
-function verificarAcceso() {
-    const usuariosValidos = {
-        "Juan Antonio": "Mateo Cordero",
-        "Manolo": "Muela"
-    };
+function login() {
+    let user = document.getElementById("usuario").value;
+    let pass = document.getElementById("password").value;
+    let error = document.getElementById("mensaje-error");
 
-    let usuarioInput = prompt("Introduce tu nombre de usuario:");
-    let passInput = prompt("Introduce tu contraseña:");
-
-    if (usuariosValidos[usuarioInput] && usuariosValidos[usuarioInput] === passInput) {
-        alert("Acceso concedido. Bienvenido, " + usuarioInput);
+    if ((user === "Juan Antonio" && pass === "Mateo Cordero") || (user === "Manolo" && pass === "Muela")) {
+        document.getElementById("login-container").style.display = "none";
+        document.getElementById("contenido-web").style.display = "block";
     } else {
-        alert("Usuario o contraseña no válidos.");
-        document.body.innerHTML = "<h1 style='text-align:center; margin-top:50px;'>Acceso Denegado</h1>";
-        window.stop();
+        error.innerHTML = "Usuario o contraseña no válidos.";
     }
 }
-
-verificarAcceso();

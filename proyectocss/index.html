@@ -6,9 +6,17 @@
     <title>Juan Antonio | Desarrollador Web</title>
     <link rel="icon" href="https://jaon777.github.io/proyecto10/favicon.jpg">
     <link rel="stylesheet" href="index.css">
-    <script src="login.js"></script>
 </head>
 <body id="top">
+    <div id="login-container" style="text-align: center; margin-top: 100px;">
+        <h2>Control de Acceso</h2>
+        <input type="text" id="usuario" placeholder="Usuario"><br><br>
+        <input type="password" id="password" placeholder="Contraseña"><br><br>
+        <button onclick="login()">Entrar</button>
+        <p id="mensaje-error" style="color:red;"></p>
+    </div>
+
+    <div id="contenido-web" style="display: none;">
     <header>
         <center>
             <h1>Juan Antonio / Desarrollador Web</h1>
@@ -69,6 +77,9 @@
             </p>
         </article>
     </main>
+    </div>
+
+    <script src="login.js"></script>
 
     <footer>
         <hr>
