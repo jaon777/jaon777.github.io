@@ -4,6 +4,7 @@ function login() {
     let error = document.getElementById("mensaje-error");
 
     if ((user === "Juan Antonio" && pass === "Mateo Cordero") || (user === "Manolo" && pass === "Muela")) {
+        alert("Usuario correcto");
         document.getElementById("login-container").style.display = "none";
         document.getElementById("contenido-web").style.display = "block";
     } else {
