@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #1a2a6c;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #00d4ff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+img {
+    border: 2px solid #1a2a6c;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #1a2a6c;
+    border-bottom: 1px solid #1a2a6c;
+}

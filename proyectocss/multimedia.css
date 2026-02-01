@@ -1,0 +1,51 @@
+
+.multimedia-body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    text-align: center;
+}
+
+h1 {
+    color: #1a2a6c;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #1a2a6c;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.label-multimedia {
+    font-weight: bold;
+    margin-top: 25px;
+    color: #1a2a6c;
+}
+
+video, audio {
+    display: block;
+    margin: 15px auto;
+    border: 4px solid #1a2a6c;
+    border-radius: 12px;
+    max-width: 95%;
+}
+
+iframe {
+    display: block;
+    margin: 30px auto;
+    border: 4px solid #1a2a6c;
+    border-radius: 12px;
+    max-width: 95%;
+}
+
+.boton-volver {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 25px;
+    background-color: #1a2a6c;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}

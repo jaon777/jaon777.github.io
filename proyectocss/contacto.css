@@ -1,0 +1,59 @@
+
+.contacto-body {
+    font-family: sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto-header {
+    background-color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contacto-header h1 {
+    color: #1a2a6c;
+    margin-bottom: 10px;
+}
+
+.contacto-header h2 {
+    color: #1a2a6c;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #1a2a6c;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.contacto-header p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+ol {
+    list-style-position: inside;
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+}
+
+li {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.contacto-header a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contacto-header a:hover {
+    text-decoration: underline;
+}
+ 
